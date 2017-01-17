@@ -28,3 +28,19 @@ which refers to the application/module that controller is to control
 # Angular views
 # ng-view
 * ng-view tag simply creates a place holder where a corresponding view (html or ng-template view) can be placed based on the configuration.
+
+# ng-template
+* ng-template directive is used to create an html view using script tag. It contains "id" attribute which is used by $routeProvider to map a view with a controller.
+
+# Scope
+* scope is a special javascript object which plays the role of joining controller with the views. Scope contains the model data. In controllers, model data is accessed via $scope object.
+
+* Following are the important points to be considered in above example.
+
+* $scope is passed as first argument to controller during its constructor definition.
+
+* $scope.message and $scope.type are the models which are to be used in the HTML page.
+
+* We've set values to models which will be reflected in the application module whose controller is shapeController.
+
+* We can define functions as well in $scope.
