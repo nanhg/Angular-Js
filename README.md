@@ -24,3 +24,7 @@ which refers to the application/module that controller is to control
 
 # Angular Js filters
 * Filters are used to change modify the data and can be clubbed in expression or directives using pipe character. 
+
+# Angular views
+# ng-view
+* ng-view tag simply creates a place holder where a corresponding view (html or ng-template view) can be placed based on the configuration.
